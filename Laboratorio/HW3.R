@@ -52,7 +52,7 @@ median(petri)
 
 
 #Problema 6 
-set <- c(2,2,3,6,19)
+set <- c(2,2,3,6,10)
 ##a) 
 mean(set)
 median(set)
@@ -64,7 +64,7 @@ moda <- names(tabla_frecuencia[tabla_frecuencia == max(tabla_frecuencia)])
 # Imprimir la moda
 cat("La moda es:", moda, "\n")
 ##b)
-set2 <- c(7,7,8,11,24)
+set2 <- c(7,7,8,11,15)
 mean(set2)
 median(set2)
 tabla_frecuencia <- table(set2)
